@@ -50,12 +50,12 @@ In tmux, hit the prefix `ctrl+b` (my modified prefix is ctrl+a) and then:
     ]  paste 
 
 ### Prerequisite
-    In `~/.tmux.conf`, add 
-    ```
-    setw -g mode-keys vi
-    bind-key -T copy-mode-vi 'v' send -X begin-selection 
-    bind-key -T copy-mode-vi 'y' send -X copy-selection-and-cancel 
-    ``` 
+In `~/.tmux.conf`, add 
+```
+setw -g mode-keys vi
+bind-key -T copy-mode-vi 'v' send -X begin-selection 
+bind-key -T copy-mode-vi 'y' send-keys -X copy-pipe-and-cancel "pbcopy"
+``` 
 
 
     
