@@ -1,4 +1,6 @@
 [tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
+[TMUX Guide](https://tmuxguide.readthedocs.io/en/latest/tmux/tmux.html)
+
 
 start new:
 
